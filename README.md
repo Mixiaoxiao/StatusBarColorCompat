@@ -14,12 +14,12 @@ Screenshots
 Sample APK
 -----
 
-[StatusBarColorCompat.apk](https://raw.github.com/Mixiaoxiao/SmoothCompoundButton/master/StatusBarColorCompat.apk)
+[StatusBarColorCompat.apk](https://raw.github.com/Mixiaoxiao/StatusBarColorCompat/master/StatusBarColorCompat.apk)
 
 Usage 
 -----
 
-* Just copy the [StatusBarColorCompat.java](https://raw.github.com/Mixiaoxiao/statusbarcolorcompat/master/StatusBarColorCompat\src\com\mixiaoxiao\statusbarcolorcompat\StatusBarColorCompat.java) in your project
+* Just copy the [StatusBarColorCompat.java](https://raw.github.com/Mixiaoxiao/statusbarcolorcompat/master/StatusBarColorCompat/src/com/mixiaoxiao/statusbarcolorcompat/StatusBarColorCompat.java) in your project
 * Use 
 ```java
 StatusBarColorCompat.setContentViewWithStatusBarColorByColorPrimaryDark(Activity activity, int layoutResID) 
@@ -28,12 +28,12 @@ instead of
 ```java
 Activity.setContentView(int layoutResID) 
 ```
-* StatusBarColorCompat will fetch the ColorPrimaryDark(in android.R.attr.ColorPrimaryDark or R.color.ColorPrimaryDark) automatically and set the color to the StatusBar. 
+* StatusBarColorCompat will fetch the colorPrimaryDark(in android.R.attr.colorPrimaryDark or R.color.colorPrimaryDark) automatically and set the color to the StatusBar. 
 
 懒人用法
 -----
 
-* 把 [StatusBarColorCompat.java](https://raw.github.com/Mixiaoxiao/statusbarcolorcompat/master/StatusBarColorCompat\src\com\mixiaoxiao\statusbarcolorcompat\StatusBarColorCompat.java) 加入你的工程
+* 把 [StatusBarColorCompat.java](https://raw.github.com/Mixiaoxiao/statusbarcolorcompat/master/StatusBarColorCompat/src/com/mixiaoxiao/statusbarcolorcompat/StatusBarColorCompat.java) 加入你的工程
 * 用StatusBarColorCompat提供的方法
 ```java
 StatusBarColorCompat.setContentViewWithStatusBarColorByColorPrimaryDark(Activity activity, int layoutResID) 
@@ -42,7 +42,7 @@ StatusBarColorCompat.setContentViewWithStatusBarColorByColorPrimaryDark(Activity
 ```java
 Activity.setContentView(int layoutResID) 
 ```
-* StatusBarColorCompat 会自动取得ColorPrimary(in android.R.attr.ColorPrimaryDark or R.color.ColorPrimaryDark) 并设置为状态栏颜色。
+* StatusBarColorCompat 会自动取得ColorPrimary(in android.R.attr.colorPrimaryDark or R.color.colorPrimaryDark) 并设置为状态栏颜色。
 
 Extra 
 -----
